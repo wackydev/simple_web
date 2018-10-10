@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Simple Web</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/grid.css">
@@ -12,12 +13,12 @@
 
         <header id='header'>
             <div class="row">
-                <div class="grid-col-2">
+                <div class="grid-col-sm-12 grid-col-md-12 grid-col-2">
                     <div class="logo">
                         <img src="images/logo.png" alt="Beats">
                     </div>
                 </div>
-                <div class="grid-col-4 pull-right">
+                <div class="grid-col-sm-12 grid-col-md-12 grid-col-4 pull-right">
                     <nav id="main-navigation">
                         <ul>
                             <li><a href="#">Home</a></li>
@@ -35,19 +36,25 @@
         </div>
         <section class="main-section">
             <div class="row">
-                <div class="grid-col-4">
+                <div class="blurb grid-col-sm-12 grid-col-md-6 grid-col-4">
                     <img src="images/blurb-1.jpg" alt="My image">
                     <h2>Title 1</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                     <a href="#" class="btn">Read More</a>
                 </div>
-                <div class="grid-col-4">
+                <div class="blurb grid-col-sm-12 grid-col-md-6 grid-col-4">
                     <img src="images/blurb-1.jpg" alt="My image">
                     <h2>Title 1</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                     <a href="#" class="btn">Read More</a>
                 </div>
-                <div class="grid-col-4">
+                <div class="blurb grid-col-sm-12 grid-col-md-6 grid-col-4">
+                    <img src="images/blurb-1.jpg" alt="My image">
+                    <h2>Title 1</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="blurb visible-only-md grid-col-sm-12 grid-col-md-6 grid-col-4">
                     <img src="images/blurb-1.jpg" alt="My image">
                     <h2>Title 1</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
@@ -57,7 +64,7 @@
         </section>
         <section class="form-section">
             <div class="row">
-                <div class="grid-col-6 offset-grid-3">
+                <div class="grid-col-sm-12 grid-col-md-8 offset-grid-col-md-2 grid-col-6 offset-grid-lg-3">
                     <form>
                         <div class="input">
                             <input type="text" class="form-input" placeholder="Name" required>
